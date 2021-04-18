@@ -74,18 +74,18 @@
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 750px) {
   
   /* CSS */
   .navbar-light .navbar-toggler{
     background: #fff !important;
   }
   .banner{
-    height: 60vh !important;
+    height: 64vh !important;
   }
   .section-content{
     height: 70vh !important;
-    padding-left: 45px !important;
+    padding-left: 24px !important;
   }
   .banner .title{
     font-size: 30px !important;
@@ -105,10 +105,10 @@
     padding-top: 60px !important;
   }
   .img-part ul li{
-    padding: 85px 24px 0 0 !important;
+    padding:85px 12px 0 0 !important;
   }
   .text ul li{
-    padding: 23px 21px !important;
+    padding: 23px 15px !important;
   }
   .count{
     padding: 45px 0 !important;
@@ -128,7 +128,7 @@
   }
   .filter-list li{
     margin: 0 !important;
-    padding: 0 6px !important;
+    padding: 6px 10px !important;
   }
   .testimonial{
     padding: 60px 0 !important;
