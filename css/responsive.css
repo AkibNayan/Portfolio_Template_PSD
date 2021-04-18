@@ -41,7 +41,8 @@
   }
   .portfolio .btn-danger{
     margin-top: 50px !important;
-    margin-left: 234px !important;
+    margin-left: 243px !important;
+    padding: 10px 45px !important;
   }
   .contact-top .text-1{
     padding-left: 0 !important;
@@ -120,6 +121,10 @@
   }
   .portfolio .mt-5{
     width: 100% !important;
+  }
+  .portfolio .btn-danger{
+    margin-left: 106px !important;
+    padding: 2px 32px !important;
   }
   .filter-list li{
     margin: 0 !important;
