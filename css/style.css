@@ -57,7 +57,7 @@ banner css file
 .banner{
 	position: relative;
 	width: 100%;
-    background-image: url(../image/bannerBg.png);
+    background-image: url('../image/bannerBg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -435,6 +435,9 @@ footer{
 .contact-bottom .btn-success {
     background: #51a351 !important;
     border: none !important
+}
+.contact-bottom .col-md-2{
+	width: 10.666667% !important;
 }
 button, select {
     text-transform: uppercase;

@@ -1,0 +1,155 @@
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .navbar-light .navbar-toggler{
+    background: #fff !important;
+  }
+  .banner{
+    height: 80vh !important;
+  }
+  .section-content{
+    height: 80vh !important;
+    padding-left: 128px !important;
+  }
+  .about .p2{
+    padding-left: 103px !important;
+  }
+  .about .p2 ol, ul {
+    padding-left: 0 !important;
+  }
+  .about .btn{
+    margin-left: 0 !important;
+  }
+  .suggest {
+    height: 80vh !important;
+  }
+  .img-part ul li{
+    padding: 130px 32px 40px 32px !important;
+  }
+  .text ul li{
+    padding: 0 40px !important;
+  }
+  .filter-list li{
+    margin: 0 12px !important;
+  }
+  .portfolio .btn-danger{
+    margin-top: 50px !important;
+    margin-left: 234px !important;
+  }
+  .contact-top .text-1{
+    padding-left: 0 !important;
+  }
+  .contact-bottom  .col-md-2{
+    width: 0 !important;
+  }
+  .contact-bottom .col-md-6 {
+    width: 72% !important;
+  }
+  .contact-bottom .btn{
+    padding: 1.375rem 4.37rem !important;
+  }
+  .extra input{
+    margin: 0 0px 35px 0 !important;
+  }
+  .contact-bottom .mb-3{
+    margin: 0 !important;
+  }
+  .contact-bottom .col-md-6 {
+    width: 100% !important;
+  }
+
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .navbar-light .navbar-toggler{
+    background: #fff !important;
+  }
+  .banner{
+    height: 60vh !important;
+  }
+  .section-content{
+    height: 70vh !important;
+    padding-left: 45px !important;
+  }
+  .banner .title{
+    font-size: 30px !important;
+    padding: 0 0 60px 0 !important;
+  }
+  .about{
+    padding: 60px 0 !important;
+  }
+  .about .p2 {
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+  .suggest{
+    height: 60vh !important;
+  }
+  .suggest h3{
+    padding-top: 60px !important;
+  }
+  .img-part ul li{
+    padding: 85px 24px 0 0 !important;
+  }
+  .text ul li{
+    padding: 23px 21px !important;
+  }
+  .count{
+    padding: 45px 0 !important;
+  }
+  .count .col-md-3{
+    padding: 40px 0 !important;
+  }
+  .portfolio{
+    padding: 60px 0 !important;
+  }
+  .portfolio .mt-5{
+    width: 100% !important;
+  }
+  .filter-list li{
+    margin: 0 !important;
+    padding: 0 6px !important;
+  }
+  .testimonial{
+    padding: 60px 0 !important;
+  }
+  .owl-carousel .owl-item img {
+    padding-top: 0 !important;
+  }
+  footer {
+    padding: 60px 0 !important;
+  }
+  .contact-top .text-1 {
+    padding-left: 0 !important;
+  }
+  footer .col-md-4{
+    padding-bottom: 30px !important;
+  }
+  .contact-bottom .mb-3{
+    margin: 0 !important;
+  }
+  .contact-bottom .btn{
+    padding: 0.375rem 1.37rem !important;
+    letter-spacing: 2px !important;
+  }
+  .contact-bottom{
+    padding-top: 35px !important;
+  }
+
+  
+}
