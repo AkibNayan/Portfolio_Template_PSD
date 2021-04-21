@@ -359,6 +359,10 @@ portfolio css file
     margin-top: 70px;
     text-transform: uppercase;
 }
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
 .portfolio .btn-danger {
     background: #51a351 !important;
     border: 2px solid #51a351 !important;
@@ -432,7 +436,7 @@ footer{
     margin: 5px;
 }
 .contact-bottom .btn {
-    padding: .375rem 12.37rem;
+    padding: 7px 20px;
     margin-left: 4px;
     margin-top: 15px;
     color: white !important;
@@ -450,4 +454,8 @@ footer{
 }
 button, select {
     text-transform: uppercase;
+}
+.form-control:focus{
+	outline: none !important;
+	box-shadow: none !important;
 }
