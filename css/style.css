@@ -19,18 +19,26 @@ header css file
 ********************/
 header{
 	width: 100%;
-    background-color: rgba(0,0,0,1);
+    background: rgba(0,0,0,0.6);
+}
+.navbar-expand-lg .navbar-nav {
+	margin-top: 9px;
 }
 .navbar {
-    padding-top: 1.8rem;
+    padding-top: 0;
+    z-index: 9999;
 }
 .nav-item{
 	padding: 0 20px;
 }
+.navbar-light .navbar-brand{
+	visibility: hidden;
+}
 .nav-link{
     padding: 1.9rem -1rem;
-    color: #dbdbdc !important;
-    position: relative;    
+    color: black !important;
+    position: relative;   
+    color: #fff !important; 
 }
 .nav-link:hover{
 	color: #ffb233 !important;
@@ -62,6 +70,7 @@ banner css file
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    margin-top: -58px;
 }
 .shadow{
 	position: absolute;
@@ -158,7 +167,7 @@ suggest css file
 .suggest{
 	position: relative;
 	width: 100%;
-	height: 100vh;
+	padding: 288px 0;
 	background-image: url('../image/suggestBg.png');
 	background-position: center;
 	background-size: cover;
@@ -302,15 +311,15 @@ portfolio css file
 	height: 4px;
 	width: 35px;
 	background: #19bd9a;
-	margin: 13px 0;
+	margin: 5px 0;
 }
 .hover-text p{
 	margin: 0;
 	color: #9f9e9e;
-	margin-bottom: 30px;
+	margin-bottom: 5px;
 }
 .hover-text a{
-	margin-left: 80px;
+	margin-left: 70px;
 }
 .hover-text a i{
 	height: 40px;
@@ -334,7 +343,7 @@ portfolio css file
 	background: rgba(0,0,0,0.5);
 	bottom: -81px;
 	right: 0;
-	padding: 40px 24px;
+	padding: 12px 24px;
 	height: 0%;
 	transition: 0.5s ease-in-out;
 }
